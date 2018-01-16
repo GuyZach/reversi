@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="reversiapp.GamaController" fx:id="root" spacing="2">
+	<HBox spacing="0">
+		
+	</HBox>
+</HBox>
+
