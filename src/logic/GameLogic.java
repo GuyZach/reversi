@@ -53,9 +53,7 @@ public class GameLogic {
                 }
             }    
         }   
-
         //white player turn
-
         else{
             c.SetStatus('O');
             xvec = this.gameRules.FindOptions(b, this.secondPlayer);
