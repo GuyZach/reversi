@@ -7,6 +7,9 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import logic.Cell;
+import logic.GameLogic;
+import logic.SingeltonData;
 import javafx.scene.shape.Circle;
 
 public class BoardController extends GridPane{

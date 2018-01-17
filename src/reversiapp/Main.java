@@ -14,7 +14,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 		    HBox root = (HBox)FXMLLoader.load(getClass().getResource("ReversiGame.fxml"));
-			Scene scene = new Scene(root,520,400);
+			Scene scene = new Scene(root,550,400);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("Reversi game");
 			primaryStage.setScene(scene);

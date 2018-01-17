@@ -1,4 +1,4 @@
-package reversiapp;
+package logic;
 
 import javafx.scene.paint.Color;
 

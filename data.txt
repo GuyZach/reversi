@@ -1,4 +1,4 @@
-4
-blue
-red
+12
+white
+black
 Black player

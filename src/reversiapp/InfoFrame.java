@@ -4,6 +4,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import logic.SingeltonData;
 
 public class InfoFrame extends VBox{
 

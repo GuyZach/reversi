@@ -1,6 +1,8 @@
-package reversiapp;
+package logic;
 
 import java.util.Vector;
+
+import reversiapp.BoardController;
 
 public class GameRules {
     /**

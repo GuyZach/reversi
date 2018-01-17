@@ -1,8 +1,11 @@
-package reversiapp;
+package logic;
 
 import java.util.Vector;
 
 import javax.swing.JOptionPane;
+
+import reversiapp.BoardController;
+import reversiapp.InfoFrame;
 
 public class GameLogic {
     private HumanPlayer firstPlayer;

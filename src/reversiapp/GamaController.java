@@ -10,6 +10,10 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.HBox;
+import logic.GameLogic;
+import logic.GameRules;
+import logic.HumanPlayer;
+import logic.SingeltonData;
 
 public class GamaController implements Initializable {
     @FXML
@@ -55,7 +59,7 @@ public class GamaController implements Initializable {
         reversiBoard.setPrefWidth(400);
         reversiBoard.setPrefHeight(400);
         
-        so.setPrefWidth(120);
+        so.setPrefWidth(150);
         so.setPrefHeight(400);
         root.getChildren().addAll(so, reversiBoard);
         so.draw();

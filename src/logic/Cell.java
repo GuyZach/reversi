@@ -1,4 +1,4 @@
-package reversiapp;
+package logic;
 
 public class Cell {
     private int x;
